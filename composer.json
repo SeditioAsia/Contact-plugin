@@ -8,6 +8,9 @@
     "config": {
         "github-oauth": {
             "github.com": "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"
+        },
+        "allow-plugins": {
+            "composer/installers": true
         }
     }
 }
