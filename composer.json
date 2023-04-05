@@ -4,5 +4,10 @@
     "description": "Managed PMO Contact plugin",
     "require": {
         "composer/installers": "~1.0"
+    },
+    "config": {
+        "github-oauth": {
+            "github.com": "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"
+        }
     }
 }
