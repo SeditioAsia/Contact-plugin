@@ -1,0 +1,16 @@
+<h1>Dear {{cname}},</h1>
+<p>Thank you for your interest in the <strong>Subscription Plan (${data.title})</strong>. One of our managers will be in touch with you to get you started on your free trial account. </p>
+<p>Here are the Subscription details:</p>
+<ul>
+    <li>Subscription Title: ${data.title} </li>
+    <li>Max Tenants: ${data.maxTenants}</li>
+    <li>Training Session: ${data.numTrainingSessions}</li>
+    <li>Amount: P ${data.price}</li>
+    <li>Discount: ${data.discount_string !== '' ? data.discount_string + ' OFF' : 'None'}</li>
+    <li>Billing Cycle: ${data.months} month/s </li>
+    <li>Total Amount: P ${data.discounted_plan}</li>
+</ul>
+
+<p>We’re delighted with your interest in ManagedPMO, The Future of Property Management.</p>
+<br>
+<p>Best regards,<br>ManagedPMO Team</p>

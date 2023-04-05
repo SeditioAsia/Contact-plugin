@@ -1,0 +1,6 @@
+plugin:
+    name: 'seditio.contact::lang.plugin.name'
+    description: 'seditio.contact::lang.plugin.description'
+    author: seditio
+    icon: oc-icon-adjust
+    homepage: ''

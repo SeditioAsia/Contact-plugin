@@ -1,0 +1,39 @@
+
+<form data-request="onSend" class="contact-form needs-validation" novalidate>
+  <input type="hidden" name="formType" value="contact-us" required>
+  <div class="row">
+    <div class="col-md-6 mb-25">
+      <input type="text" name="first_name" id="first_name" placeholder="First Name" required>
+      <div class="invalid-feedback">Your first name is required</div>
+      
+    </div>
+    <div class="col-md-6 mb-25">
+      <input type="text" name="last_name" id="last_name" placeholder="Last Name">
+      <div class="invalid-feedback">Your last name is required</div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-12 mb-25">
+      <input type="text" name="company_name" id="company_name" placeholder="Company Name">
+      <div class="invalid-feedback">Your Company is required</div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 mb-25">
+      {% component 'telephoneInput' %}
+      <div class="invalid-feedback">Your phone number is required</div>
+    </div>
+
+    <div class="col-md-6 mb-25">
+      <input type="email" name="email" id="email" placeholder="Email">
+      <div class="invalid-feedback">Your email is required/wrong email format</div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="button text-center">
+        <button type="submit"  class="theme-btn"><span class="submit-txt">Submit</span></button>
+      </div>
+    </div>
+  </div>
+</form>

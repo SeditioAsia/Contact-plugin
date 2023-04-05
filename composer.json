@@ -1,0 +1,14 @@
+{
+    "name": "seditio/contact-plugin",
+    "type": "october-plugin",
+    "description": "Managed PMO Contact plugin",
+    "require": {
+        "composer/installers": "~1.0",
+        "multiwebinc/internationaltelephoneinput":"~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Seditio\\Contact\\": ""
+        }
+    }
+}
