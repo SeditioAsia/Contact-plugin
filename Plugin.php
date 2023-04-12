@@ -1,4 +1,4 @@
-<?php namespace Seditio\Contact;
+<?php namespace Seditio\MyContact;
 
 use System\Classes\PluginBase;
 
