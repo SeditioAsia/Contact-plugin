@@ -1,13 +1,13 @@
-<?php namespace Seditio\Contact;
+<?php namespace Seditio\MyContact;
 
 use System\Classes\PluginBase;
 
-class Plugin extends PluginBase
+class MyContactPlugin  extends PluginBase
 {
     public function registerComponents()
     {
         return[
-            'Seditio\Contact\Components\ContactForm' => 'contactform',
+            'Seditio\MyContact\Components\ContactForm' => 'contactform',
         ];
     }
 
