@@ -1,4 +1,4 @@
-<?php namespace Seditio\contactform;
+<?php namespace Seditio\Contact;
 
 use System\Classes\PluginBase;
 
@@ -7,7 +7,7 @@ class Plugin extends PluginBase
     public function registerComponents()
     {
         return[
-            'Seditio\contactform\Components\ContactForm' => 'contactform',
+            'Seditio\Contact\Components\ContactForm' => 'contactform',
         ];
     }
 

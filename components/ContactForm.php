@@ -1,4 +1,4 @@
-<?php namespace Seditio\contactform\Components;
+<?php namespace Seditio\Contact\Components;
 
 use Cms\Classes\ComponentBase;
 use Input;

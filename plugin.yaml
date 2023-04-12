@@ -1,6 +1,6 @@
 plugin:
-    name: 'seditio.contactform::lang.plugin.name'
-    description: 'seditio.contactform::lang.plugin.description'
+    name: 'seditio.contact::lang.plugin.name'
+    description: 'seditio.contact::lang.plugin.description'
     author: seditio
     icon: oc-icon-adjust
     homepage: ''
