@@ -2,7 +2,7 @@
 
 use System\Classes\PluginBase;
 
-class Plugin extends PluginBase
+class ContactFormPlugin extends PluginBase
 {
     public function registerComponents()
     {
