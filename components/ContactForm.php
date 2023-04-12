@@ -20,7 +20,7 @@ class ContactForm extends ComponentBase{
           'fname' => Input::get('first_name'),
           'lname' => Input::get('last_name'),
           'cname' => Input::get('company_name'),
-          'cno' => Input::get('contact_no'),
+          'cno' => Input::get('phone'),
           'email' => Input::get('email')
       ],
       [
